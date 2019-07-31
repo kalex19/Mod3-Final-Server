@@ -58,3 +58,7 @@ When the user makes a donation, the application should make a post request to th
 | `http://localhost:3001/api/v1/donations/` | POST | `{id: <Number>, name: <String>, donation: <Number>}` | New donation: `{ id: 1, name: 'Travis Rollins', donation: 200 }` |
 
 Note: All of these endpoints will return semantic errors if something is wrong with the request.
+
+### Sample Post
+
+![Sample Post](./assets/sample-server.png)
